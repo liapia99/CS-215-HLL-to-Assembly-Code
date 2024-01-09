@@ -1,0 +1,11 @@
+// X = (A+9)-(B-2)
+
+ADR R0, A
+LDR R1, [R0]
+ADR R2, B
+LDR R3, [R2]
+ADR R4, X
+ADD R3, R3, #9
+SUB R4, R4, #2
+SUB R3, R3, R4
+STR R3, [R2]
