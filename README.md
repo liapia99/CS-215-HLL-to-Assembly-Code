@@ -1,7 +1,7 @@
 # CS-215-HLL-to-Assembly-Code
 
 Remember to add this to the code file before executing in the simulator:
-
+```
 	AREA RESET, DATA, READONLY
 		EXPORT  __Vectors
 
@@ -22,3 +22,4 @@ DATA              ; DATA is ignored anyway
 
 CODE32
 // code from the question files
+```
